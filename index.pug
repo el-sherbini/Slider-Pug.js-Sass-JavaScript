@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+    include includes/head.pug
+  body
+    .slider-container
+      div(id="slide-number", class="slide-number")
+      img(src="../imgs/1.jpg", alt="")
+      img(src="../imgs/2.png", alt="")
+      img(src="../imgs/3.jpg", alt="")
+      img(src="../imgs/4.jpg", alt="")
+      img(src="../imgs/5.jpg", alt="")
+    .slider-controls
+      span(id="prev", class="prev") Previous
+      span(id="indicators", class="indicators")
+      span(id="next", class="next") Next
+
+  script(src="../js/master.js")
